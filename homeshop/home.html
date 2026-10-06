@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homeStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <button id="backToTopBtn" title="Back to Top">↑</button>
+
+    <div class="StyleSphere-wrapper">
+        <img src="images/logo.png" alt="StyleSphere Logo" class="logo">
+        <div class="StyleSphere">
+            <h1>StyleSphere</h1>
+            <h4>“Malaysia’s fashion, all in 1 sphere”</h4>
+        </div>
+    </div>
+    
+    <div class="navigation">
+        <nav>
+            <ul> 
+                <li><a href="http://127.0.0.1:5500/homeshop/home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/homeshop/shop.html">Shop</a></li>
+                <li><a href="http://127.0.0.1:5500/about/team.html">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/location/location.html">Location</a></li>
+            </ul>
+        </nav><br>
+    </div>
+
+    <section class="top">
+            <div class = "topdiv">
+                <div class = "toptext">
+                    <h1>New Collection</h1>
+                    <p>There's nothing like trendy and comfortable sweatshirts to keep you warm and stylish this season.</p>
+                </div>
+                <div class = "collection-image">
+                    <img src="images/sweatshirtcollection.jpg" alt="New Sweatshirt Collection" width="90%">
+                </div>
+            </div>
+    </section>
+    
+    <section class = "homecontent">
+        <h1>Our Bestsellers</h1>
+    </section>
+
+    <section class="product-list-best">
+    <div class="product" onclick="location.href='product-detail.html?id=1'">
+      <img src="images/tshirt1.jpg" width="100%" alt="Classic T-Shirt" />
+      <h3>Classic T-Shirt</h3>
+      <p>RM 45.00</p>
+    </div>
+
+    <div class="product" onclick="location.href='product-detail.html?id=2'">
+      <img src="images/pants1.jpg" width="100%" alt="Slim Fit Pants" />
+      <h3>Slim Fit Pants</h3>
+      <p>RM 79.00</p>
+    </div>
+
+    <div class="product" onclick="location.href='product-detail.html?id=3'">
+      <img src="images/tshirt2.jpg" width="100%" alt="Women’s Cotton Tee" />
+      <h3>Women’s Cotton Tee</h3>
+      <p>RM 39.00</p>
+    </div>
+
+    <div class="product" onclick="location.href='product-detail.html?id=4'">
+      <img src="images/pants2.jpg" width="100%" alt="High Waist Jeans" />
+      <h3>High Waist Jeans</h3>
+      <p>RM 99.00</p>
+   </section>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h1>StyleSphere</h1>
+                <p>StyleSphere is your circle of effortless fashion.<br> Be clean, confident, and always in motion.<br> Wear what moves with you.</p>
+            </div>
+
+            <div class="footer-right">
+                <h2>Contact Us:</h2>
+                <p>Email: stylesphere@gmail.com</p>
+                <p>Phone: +60 123-456-789</p>
+                <p>Instagram: stylesphere</p>
+                <p>Facebook: stylesphere</p>
+            </div>
+        </div>  
+    </footer>
+
+
+   <script>
+    //back to top button, onscroll triggers on page scroll
+    const backToTopBtn = document.getElementById("backToTopBtn");
+    window.onscroll = function () {
+      // Show button after scrolling down 300px
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          backToTopBtn.style.display = "block";
+          } else {
+          backToTopBtn.style.display = "none";
+          }
+    };
+
+    backToTopBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+   </script>
+</body>
+</html>

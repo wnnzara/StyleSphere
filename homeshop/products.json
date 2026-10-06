@@ -1,0 +1,1205 @@
+[
+    {
+        "id": 1,
+        "name": "Classic T-Shirt",
+        "image": "images/tshirt1.jpg",
+        "price": "RM 45.00",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Comfortable and airy shirt.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cute shirt, super duper comfy and airy😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me😬.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Slim Fit Pants",
+        "image": "images/pants1.jpg",
+        "price": "RM 79.00",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Uniqlo",
+        "sizes": ["S","M", "L", "XL"],
+        "rating": 4.2,
+        "description": "Comfortable Pants.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "nice pants, super comfy and fits well😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "the material is actually good and comfy.",
+                "stars": 4
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Women’s Cotton Tee",
+        "image": "images/tshirt2.jpg",
+        "price": "RM 39.00",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L","XL"],
+        "rating": 4.8,
+        "description": "Comfortable and airy shirt.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cute shirt, super duper comfy and airy😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me😬",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "High Waist Jeans",
+        "image": "images/pants2.jpg",
+        "price": "RM 99.00",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.3,
+        "description": "Comfortable and high quality jeans.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cute jeans, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Oxford Shirt",
+        "image": "images/tshirt3.jpg",
+        "price": "RM 79.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.0,
+        "description": "Shirt in washed Oxford cotton with a collar, buttons down the front and a yoke with a hanger at the back. Relaxed fit with dropped shoulders, long sleeves with buttoned cuffs, and a rounded hem. Slightly longer at the back.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cute shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Cotton Crew Neck T-shirt",
+        "image": "images/tshirt4.jpg",
+        "price": "RM 59.90",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.9,
+        "description": "Made of high-quality material with a luxurious luster and coloration.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cute shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "Casual Long Pants Ladies",
+        "image": "images/pants3.jpg",
+        "price": "RM 59.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.9,
+        "description": "Ladies casual pants feature a vertical stripe pattern. It has a drawstring waist, wide leg cut, side pockets, and offer a very relaxed fit.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cute pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 8,
+        "name": "Super Baggy Jean",
+        "image": "images/pants4.jpg",
+        "price": "RM 279.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.1,
+        "description": "Super Baggy Jeans are worth knowing - A nod to the 90s cause we all know 90s jeans are where it’s at. Super loose and extra baggy, made with rigid denim that holds shape, wear after wear.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 9,
+        "name": "Linen-blend trousers",
+        "image": "images/pants5.jpg",
+        "price": "RM 129.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.3,
+        "description": "Tailored trousers in an airy weave made from a linen and viscose blend. High waist with darts at the front and back, a zip fly and pearly button and wide legs.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 10,
+        "name": "Linen Blend Oversized Shirt",
+        "image": "images/tshirt5.jpg",
+        "price": "RM 99.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.3,
+        "description": "The smooth texture of rayon meets the cool feel of linen. Nylon-rayon hybrid yarn for easy care after washing.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 11,
+        "name": "Casual Relaxed Jeans",
+        "image": "images/pants6.jpg",
+        "price": "RM 79.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.3,
+        "description": "Men casual denim jeans feature large front patch pockets. It has vertical seam details and a relaxed fit.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 12,
+        "name": "Washed Box Fit Short Sleeve Shirt",
+        "image": "images/tshirt6.jpg",
+        "price": "RM 149.90",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Introducing you to your new party shirt; The washed Box Fit Short sleeve shirt.  Featuring a button front, camp collar, chest pocket and short sleeves this is a staple for your shirts collection.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 13,
+        "name": "Regular Fit Textured resort shirt",
+        "image": "images/tshirt7.jpg",
+        "price": "RM 99.90",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Short-sleeved shirt in a textured weave with a resort collar, French front, yoke at the back and a straight-cut hem. Regular fit for comfortable wear and a classic silhouette.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 14,
+        "name": "Loose Fit Short-sleeved shirt",
+        "image": "images/tshirt8.jpg",
+        "price": "RM 99.90",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Short-sleeved shirt in a cotton weave with a turn-down collar, classic front and a straight-cut hem with a slit at each side. Slightly longer at the back. Loose fit for a generous but not oversized silhouette.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 15,
+        "name": "Regular Fit Linen-blend trousers",
+        "image": "images/pants7.jpg",
+        "price": "RM 139.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Trousers in an airy cotton and linen weave featuring covered elastication and a drawstring at the waist, a zip fly and button, side pockets and a welt back pocket.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 16,
+        "name": "Loose Fit Hammer-loop trousers",
+        "image": "images/pants8.jpg",
+        "price": "RM 129.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Trousers in a soft weave made from a cotton and nylon blend featuring covered elastication and a concealed drawstring at the waist, a zip fly and button, patch side pockets, open back pockets and a hammer loop and a patch pocket on one leg. Loose fit for a generous but not oversized silhouette.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 17,
+        "name": "Loose Fit Waffled trousers",
+        "image": "images/pants9.jpg",
+        "price": "RM 139.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Trousers in waffled nylon with smocked elastication and a concealed drawstring at the waist, a fake fly, diagonal side pockets and a fake back pocket. Loose fit for a generous but not oversized silhouette.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 18,
+        "name": "Short Sleeve Graphic T-shirt",
+        "image": "images/tshirt9.jpg",
+        "price": "RM 59.90",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "This collection commemorates the 75th anniversary of “Peanuts,” which continues to be loved around the world. The design and colors are inspired by vintage book covers from the '50s to the '80s.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 19,
+        "name": "Oversized Bicolor T-shirt",
+        "image": "images/tshirt10.jpg",
+        "price": "RM 59.90",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Raglan sleeves for a sporty look. Half-sleeve design in an oversized cut for a relaxed feel. Playful bicolor design.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 20,
+        "name": "Wide Fit Chino Pants",
+        "image": "images/pants10.jpg",
+        "price": "RM 99.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Moderately crisp twill fabric creates an elegant silhouette. Meticulous details include wide belt loops and coin pocket.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 21,
+        "name": "Light Weight Sweat Wide Pants",
+        "image": "images/pants11.jpg",
+        "price": "RM 99.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Soft, lightweight micro French terry fabric. Easy pants with a relaxed fit. Waist gathers and tucks create a contoured silhouette. Slide fastener at the front.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 22,
+        "name": "Casual Basic Baggy Jeans Men Long",
+        "image": "images/pants12.jpg",
+        "price": "RM 99.00",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Men casual denim pants have a relaxed fit and washed finish. It feature classic five pocket styling and standard belt loops.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 23,
+        "name": "Casual Relaxed Fit Men",
+        "image": "images/pants13.jpg",
+        "price": "RM 79.90",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Men baggy fit casual jeans, Mid rise, Front button with zip closure, Pocketable feature, Black colour.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 24,
+        "name": "Active Wear Tee Men Short Sleeve",
+        "image": "images/tshirt11.jpg",
+        "price": "RM 59.00",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Men active wear tee, Round neckline, Short sleeve, Graphic print design, Fabric stretches easily, Fabric feels cool to the touch, Dark green colour.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 25,
+        "name": "Plain Tee Short Sleeve",
+        "image": "images/tshirt12.jpg",
+        "price": "RM 49.00",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Men active casual tee, Round neckline, Short sleeve, Arid and Desiccated, Moisture-less, Fabric stretches easily, Stone colour.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 26,
+        "name": "PDI Active Wear Sweat Shirt Men",
+        "image": "images/tshirt13.jpg",
+        "price": "RM 59.00",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Men casual active wear sweatshirt, Collar neckline with zip fastening, Long sleeve with elastic cuffs, Elastic cuff on waist, Moves freely with flexibility, Easily dry, Refreshing against skin, Light grey color.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 27,
+        "name": "Super Baggy Jort",
+        "image": "images/pants14.jpg",
+        "price": "RM 249.00",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "The Denim Jort embraces a relaxed and comfortable baggy design, perfect for those who appreciate a loose and laid-back street look. Featuring two spacious side pockets and a below the knee-length cut, they offer both functionality and style.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool jorts, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 28,
+        "name": "Baggy Cargo Pant",
+        "image": "images/pants15.jpg",
+        "price": "RM 219.00",
+        "type": "pants",
+        "gender": "men",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Designed with utility detailing and cargo pockets for all you daily essentials. The perfect lightweight Cargo Pant for all occasions, this is an everyday staple for all wardrobes. Whether you are dressing up to go out or just hitting the streets, this pant has you covered.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool cargos, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 29,
+        "name": "Cabana Short Sleeve Shirt",
+        "image": "images/tshirt14.jpg",
+        "price": "RM 189.00",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Introducing you to your new party shirt; The Cabana short sleeve shirt.  Featuring a button front, embroidery design, camp collar, chest pocket and short sleeves this is a staple for your shirts collection.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 30,
+        "name": "Box Fit Short Sleeve Shirt",
+        "image": "images/tshirt15.jpg",
+        "price": "RM 149.00",
+        "type": "shirt",
+        "gender": "men",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Introducing you to your new party shirt; The Cabana short sleeve shirt.  Featuring a button front, camp collar, chest pocket and short sleeves this is a staple for your shirts collection.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 31,
+        "name": "Wide High Jeans",
+        "image": "images/pants16.jpg",
+        "price": "RM 129.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "5-pocket jeans in washed cotton denim with a high waist, zip fly and button and wide, straight legs.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 32,
+        "name": "Wrap-skirt trousers",
+        "image": "images/pants17.jpg",
+        "price": "RM 139.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Trousers in woven fabric layered with a short wrap skirt that has narrow ties around the waist. Concealed press-studs at the top, a fly and front pockets one of which has a flap. Bootcut legs.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 33,
+        "name": "Linen shirt",
+        "image": "images/tshirt16.jpg",
+        "price": "RM 129.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Shirt in airy linen with a collar, buttons down the front and a double-layered yoke at the back. Gently dropped shoulders, long sleeves with buttoned cuffs, a patch chest pocket and a gently rounded hem.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 34,
+        "name": "Denim shirt",
+        "image": "images/tshirt17.jpg",
+        "price": "RM 129.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "H&M",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Shirt in supersoft and feather-light denim with a collar, press-studs down the front and a yoke at the back. Flap chest pockets with a press-stud. Long sleeves with press-studs at the cuffs.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 35,
+        "name": "Oxford Boxy Shirt",
+        "image": "images/tshirt18.jpg",
+        "price": "RM 129.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Short length with a boxy silhouette. Adjustable cuffs with double buttons. JW Anderson logo embroidery on the front hem.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 36,
+        "name": "Oversized Shirt",
+        "image": "images/tshirt19.jpg",
+        "price": "RM 99.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Rounded hem. Roomy sleeves with gathers at the cuffs. Two pleats at the back yoke.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 37,
+        "name": "Cotton Lyocell Pleated Wide Pants",
+        "image": "images/pants18.jpg",
+        "price": "RM 99.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Double-pleated, tapered pants. With belt loops. Concealed hook closure and reinforced buttons. Two welt pockets at the back and side pockets.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 38,
+        "name": "Linen Blend Easy Pants",
+        "image": "images/pants19.jpg",
+        "price": "RM 99.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "The distinctive texture of natural linen blended with smooth rayon for added comfort. External waist drawstring for size adjustment. Narrow elastic waistband gives a sleek look.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 39,
+        "name": "Side Snap Pants",
+        "image": "images/pants20.jpg",
+        "price": "RM 79.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Uniqlo",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Side snap buttons let you style it your way. Comfortable cotton nylon fabric with a perfectly crisp feel. Wide silhouette.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 40,
+        "name": "Casual Jeans Wide Leg",
+        "image": "images/pants21.jpg",
+        "price": "RM 69.00",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Ladies wide cargo long jeans, Mid rise, Front button with zip closure, Pocketable feature, Light blue colour.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 41,
+        "name": "Active Wear Jogger",
+        "image": "images/pants22.jpg",
+        "price": "RM 49.90",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Ladies active wear pants have an elastic waist with a drawstring and feature a very relaxed, wide leg fit that drapes softly. Side pockets are included for convenience. Comfortable lounge or casual style.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 42,
+        "name": "Short Sleeve Knit Ladies Tee",
+        "image": "images/tshirt20.jpg",
+        "price": "RM 39.00",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Ladies tee features a classic crew neck and short sleeves. The fabric appears to have a washed or faded treatment for a vintage effect. Simple design with a relaxed fit.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 43,
+        "name": "Casual Long Sleeve Tee Ladies Graphic",
+        "image": "images/tshirt21.jpg",
+        "price": "RM 29.90",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Padini",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Ladies casual long sleeve tee features a crew neck and contrasting panels along the sides. A text graphic print is on the chest, with an additional star graphic on the shoulder area.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too small for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 44,
+        "name": "Benny Cargo Pant",
+        "image": "images/pants23.jpg",
+        "price": "RM 189.00",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "The Benny Cargo Pant is a relaxed fit pant with a tapered leg. It features an elasticated waistband with drawcord, side pockets and cargo pockets on the legs.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 45,
+        "name": "Izzy Pleated Suiting Pant",
+        "image": "images/pants24.jpg",
+        "price": "RM 189.00",
+        "type": "pants",
+        "gender": "women",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "The Izzy Pleated Suiting Pant is a high waisted pant with a wide leg. It features a pleated front, side pockets and a zip fly with hook and bar closure.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool pants, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 46,
+        "name": "The Boxy Graphic Tee",
+        "image": "images/tshirt22.jpg",
+        "price": "RM 89.00",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Ooze confidence with our new  Boxy Graphic Tee. Complete your look with elevated print techniques and comfortable cotton jersey. Perfectly teamed with your fav pair of jeans.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 47,
+        "name": "Snoopy Boxy Graphic Tee",
+        "image": "images/tshirt23.jpg",
+        "price": "RM 109.00",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "Ooze confidence with our new  Boxy Graphic Tee. Complete your look with elevated print techniques and comfortable cotton jersey. Perfectly teamed with your fav pair of jeans.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    },
+
+    {
+        "id": 48,
+        "name": "Gathered Long Sleeve Shirt",
+        "image": "images/tshirt24.jpg",
+        "price": "RM 129.00",
+        "type": "shirt",
+        "gender": "women",
+        "brand": "Cotton On",
+        "sizes": ["S", "M", "L", "XL"],
+        "rating": 4.5,
+        "description": "The Gathered Long Sleeve Shirt is a relaxed fit shirt with a gathered front. It features a button down front, long sleeves and a curved hem.",
+        "reviews": [
+            {
+                "user": "angrybroccoli",
+                "comment": "cool shirt, super duper comfy and airy 😍",
+                "stars": 5
+            },
+            {
+                "user": "cutetechfanatic",
+                "comment": "too big for me 😬, but the material is actually good and comfy.",
+                "stars": 3
+            }
+        ]
+    }
+]    
+
+
+
+    

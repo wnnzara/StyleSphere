@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  body {
+    background-color:#EADEDA;
+  }
+
+  .StyleSphere-wrapper {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20px;      
+    right: 30px;    
+    width: 80px;    
+    height: auto;
+    z-index: 10;
+  }
+
+  .search-bar {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 6px;
+  }
+
+  .search-bar input[type="text"] {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 120px; 
+    font-size: 12px;
+  }
+
+  .search-bar button {
+    padding: 4px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .search-bar button:hover {
+    background-color: #333;
+  }  
+
+  .StyleSphere {
+    font-family: 'The Seasons', sans-serif;  
+  }
+
+  div.navigation{
+    top: 0;
+    position : sticky;
+  }
+
+  .navigation{
+    background-color: #998888;
+    text-align: center;
+  }
+
+  .navigation nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin : 0; 
+    padding: 0;
+  }
+
+  .navigation nav ul li {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+
+  .navigation nav ul li a {
+    text-decoration:none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    .product {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: box-shadow 0.3s, background 0.2s;
+    }
+
+    /*hover effects*/
+    .product:hover {
+      box-shadow: 0 8px 24px 0 rgba(0,0,0,0.18), 0 1.5px 5px 0 rgba(0,0,0,0.10);
+      background: #f7f7f7; 
+    }
+    
+    /*flex box*/
+    .product-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .gender-filters, .brand-filters, .type-filters {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0 40px 0;
+    }
+
+    .gender-btn, .brand-btn, .type-btn {
+      padding: 12px 32px;
+      border: none;
+      border-radius: 25px;
+      background: #eee;
+      color: #222;
+      font-size: 1.1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    /*hover effects, active tu mcm bila click button tu dia tukar jadi apa*/
+    .gender-btn.active, .gender-btn:hover,
+    .brand-btn.active, .brand-btn:hover,
+    .type-btn.active, .type-btn:hover{
+      background: #222;
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    #backToTopBtn {
+      position: fixed;
+      bottom: 40px;
+      right: 40px;
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+      background-color:#998888;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: none; /* Hidden by default */
+      z-index: 999;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      transition: opacity 0.6s ease, visibility 0.6s ease;
+    }
+  
+    #backToTopBtn:hover {
+      background-color: #555;
+    }
+  
+    #backToTopBtn:active {
+      transform: scale(0.90);
+    }
+
+    .shop-heading {
+      text-align: center;
+      margin: 30px 0 10px 0;
+    }
+
+    .sidebar {
+      position: fixed;
+      left: -290px;
+      top: 0;
+      width: 250px;
+      max-height: 100vh; /* Use viewport height */
+      background: #fff;
+      box-shadow: 2px 0 12px rgba(0,0,0,0.08);
+      padding: 30px 18px 18px 18px;
+      z-index: 1200;
+      transition: left 0.3s;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overflow-y: auto; /* Enable vertical scrolling */
+    }
+
+    .sidebar.open {
+      left: 0;
+    }
+
+    footer {
+      margin-top: 100px;;
+      background-color: #998888;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+    }
+
+    .footer-content {
+      font-size: 70%;
+      display: flex;            
+      justify-content: flex-start;
+      gap: 10px;               
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .footer-right {
+      margin-left: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+
+</style>
+</head>
+<body>
+  <button id="backToTopBtn" title="Back to Top">↑</button>
+
+  <div class="StyleSphere-wrapper">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search..." oninput="searchProducts()" />
+      <button type="button">Search</button>
+    </div>
+    <img src="images/logo.png" alt="StyleSphere Logo" class="logo">
+    <div class="StyleSphere">
+      <h1>StyleSphere</h1>
+      <h4>“Malaysia’s fashion, all in 1 sphere”</h4>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/homeshop/home.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/homeshop/shop.html">Shop</a></li>
+        <li><a href="http://127.0.0.1:5500/about/team.html">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/location/location.html">Location</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="shop-heading">
+    <h2>Shop our products here!</h2>
+  </div>
+
+<!-- Sidebar Toggle Button -->
+<button id="openSidebarBtn" style="position:fixed; left:20px; top:120px; z-index:1100; background:#524545; color:white; border:none; border-radius:8px; padding:10px 18px; cursor:pointer;">
+  ☰ Filter
+</button>
+
+<!-- Sidebar for Filters -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" style="margin-bottom:20px; background:#524545; color:white; border:none; border-radius:8px; padding:6px 16px; cursor:pointer;">Close ×</button>
+  <div id="gender-filters" class="gender-filters" style="flex-direction:column; align-items:flex-start;">
+    <span style="font-weight:bold; margin-bottom:8px;">Gender:</span>
+    <button class="gender-btn active" onclick="filterByGender('all', this)">All</button>
+    <button class="gender-btn" onclick="filterByGender('men', this)">Men</button>
+    <button class="gender-btn" onclick="filterByGender('women', this)">Women</button>
+  </div>
+  <div id="brand-filters" class="brand-filters" style="flex-direction:column; align-items:flex-start; margin-top:20px;">
+    <span style="font-weight:bold; margin-bottom:8px;">Brand:</span>
+    <button class="brand-btn active" onclick="filterByBrand('all', this)">All</button>
+    <button class="brand-btn" onclick="filterByBrand('H&M', this)">H&M</button>
+    <button class="brand-btn" onclick="filterByBrand('Uniqlo', this)">Uniqlo</button>
+    <button class="brand-btn" onclick="filterByBrand('Padini', this)">Padini</button>
+    <button class="brand-btn" onclick="filterByBrand('Cotton On', this)">Cotton On</button>
+  </div>
+  <div id="type-filters" class="type-filters" style="flex-direction:column; align-items:flex-start; margin-top:20px;">
+    <span style="font-weight:bold; margin-bottom:8px;">Clothing Type:</span>
+    <button class="type-btn active" onclick="filterByType('all', this)">All</button>
+    <button class="type-btn" onclick="filterByType('pants', this)">Pants</button>
+    <button class="type-btn" onclick="filterByType('shirt', this)">Shirt</button>
+  </div>
+</div>
+
+
+  <section class="product-list">
+    <div class="product" onclick="location.href='product-detail.html?id=1'">
+      <img src="images/tshirt1.jpg" alt="Classic T-Shirt" />
+      <h3>Classic T-Shirt</h3>
+      <p>RM 45.00</p>
+    </div>
+
+    <div class="product" onclick="location.href='product-detail.html?id=2'">
+      <img src="images/pants1.jpg" alt="Slim Fit Pants" />
+      <h3>Slim Fit Pants</h3>
+      <p>RM 79.00</p>
+    </div>
+
+    <div class="product" onclick="location.href='product-detail.html?id=3'">
+      <img src="images/tshirt2.jpg" alt="Women’s Cotton Tee" />
+      <h3>Women’s Cotton Tee</h3>
+      <p>RM 39.00</p>
+    </div>
+
+    <div class="product" onclick="location.href='product-detail.html?id=4'">
+      <img src="images/pants2.jpg" alt="High Waist Jeans" />
+      <h3>High Waist Jeans</h3>
+      <p>RM 99.00</p>
+  </section>
+
+  <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h1>StyleSphere</h1>
+                <p>StyleSphere is your circle of effortless fashion.<br> Be clean, confident, and always in motion.<br> Wear what moves with you.</p>
+            </div>
+
+            <div class="footer-right">
+                <h2>Contact Us:</h2>
+                <p>Email: stylesphere@gmail.com</p>
+                <p>Phone: +60 123-456-789</p>
+                <p>Instagram: stylesphere</p>
+                <p>Facebook: stylesphere</p>
+            </div>
+        </div>  
+    </footer>
+
+
+  
+<script>
+
+//Initialize filter variables, allproducts empty, to hold full list of products from json
+let currentGender = 'all';
+let currentBrand = 'all';
+let currentType = 'all';
+let allProducts = [];
+
+function searchProducts() {
+  const query = document.getElementById('searchInput').value.toLowerCase(); // Get search query
+  let filtered = allProducts.filter(product => 
+    product.name.toLowerCase().includes(query) // Check if name contains search query
+  );
+
+  renderProducts(filtered); // Render the filtered results, show the products that match the search query
+}
+
+//products rendering, inserts product cards into the .product-list container based on filtered product array, forEach iterates over each product
+function renderProducts(products) {
+  const productList = document.querySelector('.product-list');  //selects the container element
+  productList.innerHTML = '';  //clears existing products b4 rendering new ones
+  products.forEach(product => {
+    const div = document.createElement('div'); //creates new div/product card element
+    div.className = 'product'; //assigns CSS class for styling
+    // Build filter params for the URL
+    let url = `product-detail.html?id=${product.id}`;
+    if (currentGender !== 'all') url += `&gender=${encodeURIComponent(currentGender)}`; //create URL with query params for current filters, encodeURIComponent encodes special characters in the filter values to ensure valid URL
+    if (currentBrand !== 'all') url += `&brand=${encodeURIComponent(currentBrand)}`;
+    if (currentType !== 'all') url += `&type=${encodeURIComponent(currentType)}`;
+    div.onclick = () => location.href = url; //sets the onclick event to redirect to product detail page
+    div.innerHTML = `
+      <img src="${product.image}" alt="${product.name}" />
+      <h3>${product.name}</h3>
+      <p>${product.price}</p>
+    `;  //insert product image, name, price dynamically
+    productList.appendChild(div);  //adds the new product card to the DOM/ product-list container
+  });
+}
+
+//filter functions, to update the filter state variables (currentGender, currentBrand, currentType) when a filter button is clicked 
+function filterByGender(gender, btn) {
+  currentGender = gender; // Update the current gender 
+  //update active button styling for gender
+  document.querySelectorAll('.gender-btn').forEach(b => b.classList.remove('active')); //document.querySelectorAll selects all buttons in the filter group, forEach iterates over buttons to remove the active class
+  if (btn) btn.classList.add('active'); //adds the active class to the clicked button
+  applyFilters(); //calls applyFilters to update the product list based on new filter states
+}
+
+function filterByBrand(brand, btn) {
+  currentBrand = brand;
+  //update active button styling for brand
+  document.querySelectorAll('.brand-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  applyFilters();
+}
+
+function filterByType(type, btn) {
+  currentType = type;
+  //update active button styling for type
+  document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  applyFilters();
+}
+
+//dynamic filtering system, apply all active filters to the product list and then renders the filtered products
+function applyFilters() {
+  let filtered = allProducts;  //start with all product list
+  if (currentGender !== 'all') {
+    filtered = filtered.filter(p => p.gender === currentGender); //compares product gender to current gender
+  }
+  if (currentBrand !== 'all') {
+    filtered = filtered.filter(p => p.brand === currentBrand);
+  }
+  if (currentType !== 'all') {
+    filtered = filtered.filter(p => p.type === currentType);
+  }
+  renderProducts(filtered);
+}
+
+
+//load products.json via AJAX
+fetch('products.json') //makes an HTTP GET request to get products.json
+  .then(response => response.json()) //parses the response as JSON, converts the JSON data into a JavaScript object
+  .then(data => {
+    allProducts = data;  //stores the parsed data in allProducts
+    renderProducts(allProducts); //renders/diplays all products on the page 
+    // Set "All" as active on load for both filters, .classList manipulates class
+    document.querySelector('.gender-btn').classList.add('active');
+    document.querySelector('.brand-btn').classList.add('active');
+    document.querySelector('.type-btn').classList.add('active');
+  });
+
+//sidebar toggle logic, controls opening and closing of the filter sidebar
+const sidebar = document.getElementById('sidebar');
+const openSidebarBtn = document.getElementById('openSidebarBtn');
+const closeSidebarBtn = document.getElementById('closeSidebarBtn');
+
+openSidebarBtn.onclick = () => {
+  sidebar.classList.add('open'); //adds the 'open' class to the sidebar to make it visible
+};
+closeSidebarBtn.onclick = () => {
+  sidebar.classList.remove('open'); //removes the 'open' class to hide the
+};
+
+//close sidebar when clicking outside, onclick listens for clicks anywhere on the page
+window.onclick = function(event) {   
+  if (sidebar.classList.contains('open') && !sidebar.contains(event.target) && event.target !== openSidebarBtn) {
+    sidebar.classList.remove('open');
+  }
+};
+
+
+//back to top button, onscroll triggers on page scroll
+const backToTopBtn = document.getElementById("backToTopBtn");
+    window.onscroll = function () {
+      // Show button after scrolling down 300px
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          backToTopBtn.style.display = "block";
+          } else {
+          backToTopBtn.style.display = "none";
+          }
+    };
+
+    backToTopBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+</script>
+
+
+</body>
+</html>
+
