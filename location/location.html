@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" href="location.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="StyleSphere-wrapper">
+        <img src="img/logo.png" alt="StyleSphere Logo" class="logo">
+        <div class="StyleSphere">
+            <h1>StyleSphere</h1>
+            <h4>“Malaysia’s fashion, all in 1 sphere”</h4>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/homeshop/home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/homeshop/shop.html">Shop</a></li>
+                <li><a href="http://127.0.0.1:5500/about/team.html">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/location/location.html">Location</a></li>
+            </ul>
+        </nav><br>
+    </div>
+
+    <div class="location-section">
+        <h2>Store Locations at Malaysia</h2>
+
+        <div id="brand-images-container">
+            <a href="#store1"><img src="img/UNIQLO.png" alt="UNIQLO" class="brand-image" ></a>
+            <a href="#store2"><img src="img/H&M.png" alt="H&M" class="brand-image" ></a>
+            <a href="#store3"><img src="img/Padini.png" alt="Padini" class="brand-image" ></a>
+            <a href="#store4"><img src="img/CottonOn.png" alt="Cotton On" class="brand-image"></a>
+        </div>
+
+        <!-- Region Selector -->
+        <select id="region-select">
+            <option value="semenanjung">Semenanjung Malaysia</option>
+            <option value="sabah">Sabah</option>
+            <option value="sarawak">Sarawak</option>
+        </select>
+
+        <!-- City Selector -->
+        <select id="city-select">
+            <option value="all">All Cities</option>            
+            <!-- Semenanjung -->
+            <option value="Kuala Lumpur">Kuala Lumpur</option>
+            <option value="Selangor">Selangor</option>
+            <option value="Melaka">Melaka</option>
+            <option value="Negeri Sembilan">Negeri Sembilan</option>
+            <option value="Perak">Perak</option>
+            <option value="Pahang">Pahang</option>
+            <option value="Terengganu">Terengganu</option>
+            <option value="Kelantan">Kelantan</option>
+            <option value="Perlis">Perlis</option>
+            <option value="Kedah">Kedah</option>
+            <option value="Pulau Pinang">Pulau Pinang</option>
+            <option value="Johor">Johor</option>
+
+            <!-- Sabah Cities -->
+            <option value="Kota Kinabalu">Kota Kinabalu</option>
+
+            <!-- Sarawak Cities -->
+            <option value="Kuching">Kuching</option>
+            <option value="Miri">Miri</option>
+            <option value="Bintulu">Bintulu</option>
+
+        </select>
+
+        <button id="backToTopBtn" title="Back to Top">↑</button>
+
+        <div id="store1">
+
+            <!--Semenanjung-->
+            <!-- All -->
+            <div class="store-location" data-region="semenanjung" data-city="all">
+                <h4>UNIQLO</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d214408.2149410571!2d101.59610193549703!3d3.0955942941189125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20malaysia!5e0!3m2!1sen!2smy!4v1746585482351!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+
+                    <div class="region">
+                        <h4>Kuala Lumpur</h4>
+                        <ul>
+                            <li>Bangsar Village</li>
+                            <li>DA Square, Bandar Sri Damansara</li>
+                            <li>Fahrenheit 88, Bukit Bintang</li>
+                            <li>KL Sogo</li>
+                            <li>Suria KLCC</li>
+                            <li>Mid Valley Megamall</li>
+                            <li>MyTOWN Shopping Centre</li>
+                            <li>NU Sentral</li>
+                            <li>Pavilion Bukit Jalil</li>
+                            <li>Setapak Central</li>
+                            <li>Sunway Putra Mall</li>
+                            <li>Sunway Velocity, Maluri</li>
+                            <li>The Exchange TRX</li>
+                        </ul>
+                    </div>
+                
+                    <div class="region">
+                        <h4>Selangor</h4>
+                        <ul>
+                            <li>AEON Mall Cheras Selatan, Balakong</li>
+                            <li>AEON Shah Alam</li>
+                            <li>AEON Bukit Tinggi, Klang</li>
+                            <li>Central i-City, Shah Alam</li>
+                            <li>IOI Mall Puchong</li>
+                            <li>Main Place, USJ</li>
+                            <li>NU Empire, Subang Jaya</li>
+                            <li>One Utama, Bandar Utama</li>
+                            <li>Paradigm Mall, Petaling Jaya</li>
+                            <li>Rawang</li>
+                            <li>Setia City Mall, Setia Alam</li>
+                            <li>Sunway Pyramid, Bandar Sunway</li>
+                            <li>The Curve, Mutiara Damansara</li>
+                            <li>Tropicana Gardens, Tropicana Indah</li>
+                            <li>gateway@KLIA2, Sepang</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="region">
+                        <h4>Johor</h4>
+                        <ul>
+                            <li>AEON Tebrau City, Johor Bahru</li>
+                            <li>Batu Pahat Mall</li>
+                            <li>Johor Bahru City Square</li>
+                            <li>Kluang Mall</li>
+                            <li>Mid Valley Southkey, Johor Bahru</li>
+                            <li>Paradigm Mall, Johor Bahru</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Pulau Pinang</h4>
+                        <ul>
+                            <li>AEON Bukit Mertajam</li>
+                            <li>Gurney Plaza, George Town</li>
+                            <li>Queensbay Mall, Bayan Lepas</li>
+                            <li>Sunway Carnival Mall, Seberang Jaya</li>
+                            <li>Tree Square, Tanjung Bungah</li>
+                        </ul>
+                    </div>
+                
+                    <div class="region">
+                        <h4>Melaka</h4>
+                        <ul>
+                            <li>AEON Bandaraya Melaka Shopping Centre</li>
+                            <li>Dataran Pahlawan Melaka Megamall</li>
+                            <li>Limbongan Melaka</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Putrajaya</h4>
+                        <ul>
+                            <li>Alamanda Shopping Centre</li>
+                            <li>IOI City Mall</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="region">
+                        <h4>Perak</h4>
+                        <ul>
+                            <li>AEON Ipoh Station 18 Shopping Centre</li>
+                            <li>Ipoh Parade</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Kedah</h4>
+                        <ul>
+                            <li>Amanjaya Walk, Sungai Petani</li>
+                            <li>Aman Central, Alor Setar</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="region">
+                        <h4>Pahang</h4>
+                        <ul>
+                            <li>East Coast Mall, Kuantan</li>
+                            <li>SkyAvenue, Genting Highlands</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Negeri Sembilan</h4>
+                        <ul>
+                            <li>AEON Mall Nilai</li>
+                        </ul> 
+                    </div>
+                    
+                    <div class="region">
+                        <h4>Kelantan</h4>
+                        <ul>
+                            <li>AEON Mall Kota Bharu</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="region">
+                        <h4>Terengganu</h4>
+                        <ul>
+                            <li>KTTC Mall Kuala Terengganu</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="store-location" data-region="semenanjung" data-city="Kuala Lumpur">
+                <h4>UNIQLO</h4>
+                <p>Kuala Lumpur Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d92783.53913361479!2d101.6646299135063!3d3.1581570617688626!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20kuala%20lumpur!5e0!3m2!1sen!2smy!4v1747383688344!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="store-list">
+                        <div class="region">
+                            <h4>Kuala Lumpur</h4>
+                            <ul>
+                                <li>Bangsar Village</li>
+                                <li>DA Square, Bandar Sri Damansara</li>
+                                <li>Fahrenheit 88, Bukit Bintang</li>
+                                <li>KL Sogo</li>
+                                <li>Suria KLCC</li>
+                                <li>Mid Valley Megamall</li>
+                                <li>MyTOWN Shopping Centre</li>
+                                <li>NU Sentral</li>
+                                <li>Pavilion Bukit Jalil</li>
+                                <li>Setapak Central</li>
+                                <li>Sunway Putra Mall</li>
+                                <li>Sunway Velocity, Maluri</li>
+                                <li>The Exchange TRX</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="store-location" data-region="semenanjung" data-city="Pulau Pinang">
+                <h4>UNIQLO</h4>
+                <p>Pulau Pinang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d77793.10138804319!2d100.27534723203092!3d5.4010123017432194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20pulau%20pinang!5e0!3m2!1sen!2smy!4v1747012358649!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Pulau Pinang</h4>
+                        <ul>
+                            <li>AEON Bukit Mertajam</li>
+                            <li>Gurney Plaza, George Town</li>
+                            <li>Queensbay Mall, Bayan Lepas</li>
+                            <li>Sunway Carnival Mall, Seberang Jaya</li>
+                            <li>Tree Square, Tanjung Bungah</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="store-location" data-region="semenanjung" data-city="Johor">
+                <h4>UNIQLO</h4>
+                <p>Johor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63814.96091524602!2d103.71446573093952!3d1.5087803546316492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20johor!5e0!3m2!1sen!2smy!4v1747012195986!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Johor</h4>
+                        <ul>
+                            <li>AEON Tebrau City, Johor Bahru</li>
+                            <li>Batu Pahat Mall</li>
+                            <li>Johor Bahru City Square</li>
+                            <li>Kluang Mall</li>
+                            <li>Mid Valley Southkey, Johor Bahru</li>
+                            <li>Paradigm Mall, Johor Bahru</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Melaka">
+                <h4>UNIQLO</h4>
+                <p>Melaka Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31894.842087600857!2d102.21473926256165!3d2.2083002915604966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20melaka!5e0!3m2!1sen!2smy!4v1746236116465!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Melaka</h4>
+                        <ul>
+                            <li>AEON Bandaraya Melaka Shopping Centre</li>
+                            <li>Dataran Pahlawan Melaka Megamall</li>
+                            <li>Limbongan Melaka</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Pahang">
+                <h4>UNIQLO</h4>
+                <p>Pahang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d606117.9963861887!2d102.1909347821422!3d3.611686553256779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20pahang!5e0!3m2!1sen!2smy!4v1747014207186!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Pahang</h4>
+                        <ul>
+                            <li>East Coast Mall, Kuantan</li>
+                            <li>SkyAvenue, Genting Highlands</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Selangor">
+                <h4>UNIQLO</h4>
+                <p>Selangor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d180301.42114492258!2d101.52999536355162!3d3.0582209258366166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqo%20selangor!5e0!3m2!1sen!2smy!4v1747012461561!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Selangor</h4>
+                        <ul>
+                            <li>AEON Mall Cheras Selatan, Balakong</li>
+                            <li>AEON Shah Alam</li>
+                            <li>AEON Bukit Tinggi, Klang</li>
+                            <li>Central i-City, Shah Alam</li>
+                            <li>IOI Mall Puchong</li>
+                            <li>Main Place, USJ</li>
+                            <li>NU Empire, Subang Jaya</li>
+                            <li>One Utama, Bandar Utama</li>
+                            <li>Paradigm Mall, Petaling Jaya</li>
+                            <li>Rawang</li>
+                            <li>Setia City Mall, Setia Alam</li>
+                            <li>Sunway Pyramid, Bandar Sunway</li>
+                            <li>The Curve, Mutiara Damansara</li>
+                            <li>Tropicana Gardens, Tropicana Indah</li>
+                            <li>gateway@KLIA2, Sepang</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kedah">
+                <h4>UNIQLO</h4>
+                <p>Kedah Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d507990.49712688325!2d100.10765690567922!3d5.90108459198925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20kedah!5e0!3m2!1sen!2smy!4v1746236215567!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kedah</h4>
+                        <ul>
+                            <li>Amanjaya Walk, Sungai Petani</li>
+                            <li>Aman Central, Alor Setar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perlis">
+                <h4>UNIQLO</h4>
+                <p>Perlis Branch</p>
+                <p> Not Available </p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kelantan">
+                <h4>UNIQLO</h4>
+                <p>Kelantan Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126952.84648729741!2d102.1771603882034!3d6.093414259596864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6af5c66241385%3A0x5f0f47b7c3e915f3!2sUNIQLO%20AEON%20Mall%20Kota%20Bharu!5e0!3m2!1sen!2smy!4v1746236413909!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kelantan</h4>
+                        <ul>
+                            <li>AEON Mall Kota Bharu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Terengganu">
+                <h4>UNIQLO</h4>
+                <p>Terengganu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15890.183562887749!2d103.13920613696777!3d5.333282479269566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b7bf0e4583ba95%3A0x6bdb05de707772a4!2sUNIQLO%20KTCC!5e0!3m2!1sen!2smy!4v1746236462766!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Terengganu</h4>
+                        <ul>
+                            <li>KTTC Mall Kuala Terengganu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Negeri Sembilan">
+                <h4>UNIQLO</h4>
+                <p>Negeri Sembilan Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d255053.16104465243!2d101.68384980416899!3d2.7553675377221927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20negeri%20sembilan!5e0!3m2!1sen!2smy!4v1746236484981!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Negeri Sembilan</h4>
+                        <ul>
+                            <li>AEON Mall Nilai</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perak">
+                <h4>UNIQLO</h4>
+                <p>Perak Branch</p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d37836.90588497216!2d101.05896491641202!3d4.5733890809214905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20perak!5e0!3m2!1sen!2smy!4v1747013471944!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Perak</h4>
+                        <ul>
+                            <li>AEON Ipoh Station 18 Shopping Centre</li>
+                            <li>Ipoh Parade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sabah -->
+            <div class="store-location" data-region="sabah" data-city="all">
+                <h4>UNIQLO</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15872.46164410872!2d116.07201094999999!3d5.97884245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20kota%20kinabalu!5e0!3m2!1sen!2smy!4v1746534585827!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sabah</h4>
+                        <ul>
+                            <li>Imago KK Times Square, Kota Kinabalu</li>
+                            <li>Suria Sabah, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="store-location" data-region="sabah" data-city="Kota Kinabalu">
+                <h4>UNIQLO</h4>
+                <p>Kota Kinabalu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15872.46164410872!2d116.07201094999999!3d5.97884245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1suniqlo%20kota%20kinabalu!5e0!3m2!1sen!2smy!4v1746534585827!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kota Kinabalu</h4>
+                        <ul>
+                            <li>Imago KK Times Square, Kota Kinabalu</li>
+                            <li>Suria Sabah, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sarawak -->
+
+            <div class="store-location" data-region="sarawak" data-city="all">
+                <h4>UNIQLO</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2040054.3802341577!2d110.84560750940608!3d2.9638930509123784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUNIQLO%20sarawak!5e0!3m2!1sen!2smy!4v1746607739122!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sarawak</h4>
+                        <ul>
+                            <li>AEON Mall Kuching Central</li>
+                            <li>Bintang Megamall, Miri</li>
+                            <li>The Spring Bintulu</li>
+                            <li>The Spring Kuching</li>
+                            <li>Vivacity Megamall, Kuching</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Kuching">
+                <h4>UNIQLO</h4>
+                <p>Kuching Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15953.574157021743!2d110.34330113935538!3d1.531256925442446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUniqlo%20kuching!5e0!3m2!1sen!2smy!4v1746536172515!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kuching</h4>
+                        <ul>
+                            <li>AEON Mall Kuching Central</li>
+                            <li>The Spring Kuching</li>
+                            <li>Vivacity Megamall, Kuching</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Miri">
+                <h4>UNIQLO</h4>
+                <p>Miri Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.075891923374!2d113.99070707447218!3d4.39690014421739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321f4f2cc0ccbae9%3A0x159a494e6308365c!2sUNIQLO%20Bintang%20Megamall!5e0!3m2!1sen!2smy!4v1746536203252!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Miri</h4>
+                        <ul>
+                            <li>Bintang Megamall, Miri</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Bintulu">
+                <h4>UNIQLO</h4>
+                <p>Bintulu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.6702468301387!2d113.03210157447056!3d3.1811663529560685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321dc140927e3d7b%3A0x4fce661839a65b0f!2sUNIQLO%20The%20Spring%20Bintulu!5e0!3m2!1sen!2smy!4v1746536231291!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Bintulu</h4>
+                        <ul>
+                            <li>The Spring Bintulu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="store2">
+
+            <!--Semenanjung-->
+            <!-- All -->
+            <div class="store-location" data-region="semenanjung" data-city="all">
+                <h4>H&M</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254975.6402886773!2d101.5961011248112!3d3.0961528289557387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20malaysia!5e0!3m2!1sen!2smy!4v1746585642730!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                  
+                    <div class="region">
+                        <h4>Kuala Lumpur</h4>
+                        <ul>
+                            <li>Mid Valley Megamall</li>
+                            <li>Lot 10, Bukit Bintang</li>
+                            <li>Sunway Putra Mall</li>
+                            <li>Quill City Mall</li>
+                            <li>MyTOWN Shopping Centre</li>
+                            <li>Nu Sentral</li>
+                            <li>Setapak Central</li>
+                            <li>KL East Mall</li>
+                            <li>KL Gateway Mall</li>
+                            <li>1 Mont Kiara</li>
+                            <li>IPC Damansara</li>
+                            <li>TRX Exchange</li>
+                            <li>Bukit Jalil</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Selangor</h4>
+                        <ul>
+                            <li>Sunway Pyramid, Bandar Sunway</li>
+                            <li>1 Utama Shopping Centre</li>
+                            <li>Paradigm Mall, Petaling Jaya</li>
+                            <li>Setia City Mall, Shah Alam</li>
+                            <li>AEON Mall Shah Alam</li>
+                            <li>Tropicana Gardens Mall</li>
+                            <li>Gateway@KLIA2 </li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Putrajaya</h4>
+                        <ul>
+                            <li>IOI City Mall</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Johor</h4>
+                        <ul>
+                            <li>Johor Bahru City Square</li>
+                            <li>Paradigm Mall JB</li>
+                            <li>Mid Valley Southkey</li>
+                            <li>Kluang Mall</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Pulau Pinang</h4>
+                        <ul>
+                            <li>Gurney Paragon Mall</li>
+                            <li>Queensbay Mall</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Melaka</h4>
+                        <ul>
+                            <li>Hatten Square</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Negeri Sembilan</h4>
+                        <ul>
+                            <li>Palm Mall, Seremban</li>
+                            <li>AEON Mall Nilai</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Pahang</h4>
+                        <ul>
+                            <li>SkyAvenue, Genting Highlands</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Perak</h4>
+                        <ul>
+                            <li>AEON Mall Ipoh Klebang</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Kedah</h4>
+                        <ul>
+                            <li>Aman Central, Alor Setar</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Kelantan</h4>
+                        <ul>
+                            <li>AEON Mall Kota Bharu</li>
+                        </ul>
+                    </div>
+                  
+                  </div>
+                  
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kuala Lumpur">
+                <h4>H&M</h4>
+                <p>Kuala Lumpur Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d90141.9381247362!2d101.67041326361618!3d3.1608558825457234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20kuala%20lumpur!5e0!3m2!1sen!2smy!4v1747383754895!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kuala Lumpur</h4>
+                        <ul>
+                            <li>Mid Valley Megamall</li>
+                            <li>Lot 10, Bukit Bintang</li>
+                            <li>Sunway Putra Mall</li>
+                            <li>Quill City Mall</li>
+                            <li>MyTOWN Shopping Centre</li>
+                            <li>Nu Sentral</li>
+                            <li>Setapak Central</li>
+                            <li>KL East Mall</li>
+                            <li>KL Gateway Mall</li>
+                            <li>1 Mont Kiara</li>
+                            <li>IPC Damansara</li>
+                            <li>TRX Exchange</li>
+                            <li>Bukit Jalil</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="store-location" data-region="semenanjung" data-city="Pulau Pinang">
+                <h4>H&M</h4>
+                <p>Pulau Pinang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d20603.95134407413!2d100.3166636746739!3d5.42385645212577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20pulau%20pinang!5e0!3m2!1sen!2smy!4v1747012312425!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Pulau Pinang</h4>
+                        <ul>
+                            <li>Gurney Paragon Mall</li>
+                            <li>Queensbay Mall</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="store-location" data-region="semenanjung" data-city="Johor">
+                <h4>H&M</h4>
+                <p>Johor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d75888.90110875583!2d103.7190030777445!3d1.5174822135963324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20johor!5e0!3m2!1sen!2smy!4v1747012239974!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Johor</h4>
+                        <ul>
+                            <li>Johor Bahru City Square</li>
+                            <li>Paradigm Mall JB</li>
+                            <li>Mid Valley Southkey</li>
+                            <li>Kluang Mall</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Melaka">
+                <h4>H&M</h4>
+                <p>Melaka Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15947.624227666367!2d102.24135313688856!3d2.1892876068380613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1e108db013f%3A0x6e005cb7d050f909!2zSCZN!5e0!3m2!1sen!2smy!4v1746236863357!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Melaka</h4>
+                        <ul>
+                            <li>Hatten Square</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Pahang">
+                <h4>H&M</h4>
+                <p>Pahang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11264.765410413675!2d101.78916465863692!3d3.4240200055991714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20pahang!5e0!3m2!1sen!2smy!4v1747013952448!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Pahang</h4>
+                        <ul>
+                            <li>SkyAvenue, Genting Highlands</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Selangor">
+                <h4>H&M</h4>
+                <p>Selangor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d180295.33438270277!2d101.53007130331628!3d3.094212863715754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20selangor!5e0!3m2!1sen!2smy!4v1747012507920!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Selangor</h4>
+                        <ul>
+                            <li>Sunway Pyramid, Bandar Sunway</li>
+                            <li>1 Utama Shopping Centre</li>
+                            <li>Paradigm Mall, Petaling Jaya</li>
+                            <li>Setia City Mall, Shah Alam</li>
+                            <li>AEON Mall Shah Alam</li>
+                            <li>Tropicana Gardens Mall</li>
+                            <li>Gateway@KLIA2 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kedah">
+                <h4>H&M</h4>
+                <p>Kedah Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15868.138782895745!2d100.3562930370261!3d6.126033437076124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b44ba1d63f9f9%3A0x17bc01ca01212426!2zSCZN!5e0!3m2!1sen!2smy!4v1746236927366!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kedah</h4>
+                        <ul>
+                            <li>Aman Central, Alor Setar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perlis">
+                <h4>H&M</h4>
+                <p>Perlis Branch</p>
+                <p> Not Available </p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kelantan">
+                <h4>H&M</h4>
+                <p>Kelantan Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15868.614167659038!2d102.2202989370248!3d6.110019737968168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b6af92ebff6fe1%3A0x1fd4c27ff88d!2zSCZN!5e0!3m2!1sen!2smy!4v1746236971185!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kelantan</h4>
+                        <ul>
+                            <li>AEON Mall Kota Bharu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Terengganu">
+                <h4>H&M</h4>
+                <p>Terengganu Branch</p>
+                <p> Not Available </p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Negeri Sembilan">
+                <h4>H&M</h4>
+                <p>Negeri Sembilan Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d255046.52237957326!2d101.71255300420877!3d2.786182451898391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sH%26M%20negeri%20sembilan!5e0!3m2!1sen!2smy!4v1746237037004!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Negeri Sembilan</h4>
+                        <ul>
+                            <li>Palm Mall, Seremban</li>
+                            <li>AEON Mall Nilai</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perak">
+                <h4>H&M</h4>
+                <p>Perak Branch</p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75664.40239860596!2d101.08495851226307!3d4.6616033780275545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca92f8d8ae4b15%3A0x87ec0ed663d42e32!2zSCZN!5e0!3m2!1sen!2smy!4v1746237060106!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Perak</h4>
+                        <ul>
+                            <li>AEON Mall Ipoh Klebang</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sabah -->
+
+            <div class="store-location" data-region="sabah" data-city="all">
+                <h4>H&M</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.179505698697!2d116.06354637447777!3d5.969999329348925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b69bfa32cb463%3A0x17fbbc27e3796bac!2zSCZN!5e0!3m2!1sen!2smy!4v1746535575936!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sabah</h4>
+                        <ul>
+                            <li> IMAGO Shopping Mall, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+            </div>
+            
+            <div class="store-location" data-region="sabah" data-city="Kota Kinabalu">
+                <h4>H&M</h4>
+                <p>Kota Kinabalu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.179505698697!2d116.06354637447777!3d5.969999329348925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b69bfa32cb463%3A0x17fbbc27e3796bac!2zSCZN!5e0!3m2!1sen!2smy!4v1746535575936!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kota Kinabalu</h4>
+                        <ul>
+                            <li> IMAGO Shopping Mall, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sarawak -->
+
+            <div class="store-location" data-region="sarawak" data-city="all">
+                <h4>H&M</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2040047.1472765778!2d110.84553385017722!3d2.967813920296458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20sarawak!5e0!3m2!1sen!2smy!4v1746607800240!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sarawak</h4>
+                        <ul>
+                            <li>Vivacity Megamall, Kuching</li>
+                            <li>Permaisuri Imperial City Mall, Miri</li>
+                            <li>UNIQLO The Spring Bintulu</li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Kuching">
+                <h4>H&M</h4>
+                <p>Kuching Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31906.995265352023!2d110.3308093724284!3d1.541503650883588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sh%26m%20kuching!5e0!3m2!1sen!2smy!4v1746536283136!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kuching</h4>
+                        <ul>
+                            <li>Vivacity Megamall, Kuching</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Miri">
+                <h4>H&M</h4>
+                <p>Miri Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.07402760727!2d113.99091227447218!3d4.39724934421451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321f4f5d37c9dc6d%3A0x2be575268fd3efe4!2zSCZN!5e0!3m2!1sen!2smy!4v1746536328949!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Miri</h4>
+                        <ul>
+                            <li>Bintang Megamall, Miri</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Bintulu">
+                <h4>H&M</h4>
+                <p>Bintulu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.6702829727346!2d113.0344201!3d3.1811570000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321dc1c29b5f489b%3A0xddd30706a8dc7384!2zSCZN!5e0!3m2!1sen!2smy!4v1746547869216!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Bintulu</h4>
+                        <ul>
+                            <li>UNIQLO The Spring Bintulu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="store3">
+            <!-- All -->
+            <div class="store-location" data-region="semenanjung" data-city="all">
+                <h4>Padini</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254975.4813646616!2d101.59609997824128!3d3.096812981717718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20malaysia!5e0!3m2!1sen!2smy!4v1746585693655!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+
+                    <div class="region">
+                        <h4>Kuala Lumpur</h4>
+                        <ul>
+                            <li>Mid Valley Megamall</li>
+                            <li>Sunway Putra Mall</li>
+                            <li>Sunway Velocity Mall</li>
+                            <li>Pavilion Kuala Lumpur</li>
+                            <li>Pavilion Bukit Jalil</li>
+                            <li>TRX Exchange</li>
+                            <li>Gateway@klia2</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Selangor</h4>
+                        <ul>
+                            <li>AEON Bukit Tinggi, Klang</li>
+                            <li>AEON Mall Cheras Selatan</li>
+                            <li>AEON Mall Shah Alam</li>
+                            <li>Central i-City, Shah Alam</li>
+                            <li>IOI City Mall, Putrajaya</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Johor</h4>
+                        <ul>
+                            <li>AEON Bukit Indah, Johor Bahru</li>
+                            <li>AEON Tebrau City, Johor Bahru</li>
+                            <li>Batu Pahat Mall</li>
+                            <li>Mid Valley Southkey</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Melaka</h4>
+                        <ul>
+                            <li>AEON Bandaraya Melaka</li>
+                            <li>Dataran Pahlawan Melaka</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Pulau Pinang</h4>
+                        <ul>
+                            <li>Gurney Plaza</li>
+                            <li>Design Village, Batu Kawan</li>
+                            <li>Queensbay Mall</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Perak</h4>
+                        <ul>
+                            <li>AEON Mall Ipoh Klebang</li>
+                            <li>AEON Ipoh Station 18</li>
+                            <li>Kinta City Shopping Centre</li>
+                            <li>Ipoh Parade</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Kedah</h4>
+                        <ul>
+                            <li>Aman Central, Alor Setar</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Perlis</h4>
+                        <ul>
+                            <li>Store Aman Central</li>
+                        </ul>
+                    </div>
+
+                    <div class="region">
+                        <h4>Kelantan</h4>
+                        <ul>
+                            <li>AEON Mall Kota Bharu</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Pahang</h4>
+                        <ul>
+                            <li>East Coast Mall, Kuantan</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="region">
+                        <h4>Negeri Sembilan</h4>
+                        <ul>
+                            <li>AEON Mall Seremban 2</li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kuala Lumpur">
+                <h4>Padini</h4>
+                <p>Kuala Lumpur Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63740.59081636369!2d101.7021487542044!3d3.1508277141032974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPadini%20near%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1747383820529!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kuala Lumpur</h4>
+                        <ul>
+                            <li>Mid Valley Megamall</li>
+                            <li>Sunway Putra Mall</li>
+                            <li>Sunway Velocity Mall</li>
+                            <li>Pavilion Kuala Lumpur</li>
+                            <li>Pavilion Bukit Jalil</li>
+                            <li>TRX Exchange</li>
+                            <li>Gateway@klia2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="store-location" data-region="semenanjung" data-city="Pulau Pinang">
+                <h4>Padini</h4>
+                <p>Pulau Pinang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63555.32840298981!2d100.26745526937741!3d5.385230020372056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPadini%20penang!5e0!3m2!1sen!2smy!4v1746201188832!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Pulau Pinang</h4>
+                        <ul>
+                            <li>Gurney Plaza</li>
+                            <li>Design Village, Batu Kawan</li>
+                            <li>Queensbay Mall</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="store-location" data-region="semenanjung" data-city="Johor">
+                <h4>Padini</h4>
+                <p>Johor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127628.44291822515!2d103.62509686996651!3d1.533779574963389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPadini%20johor!5e0!3m2!1sen!2smy!4v1746201215455!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Johor</h4>
+                        <ul>
+                            <li>AEON Bukit Indah, Johor Bahru</li>
+                            <li>AEON Tebrau City, Johor Bahru</li>
+                            <li>Batu Pahat Mall</li>
+                            <li>Mid Valley Southkey</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Melaka">
+                <h4>Padini</h4>
+                <p>Melaka Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31894.757776444316!2d102.23229367236837!3d2.212224491173985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20melaka!5e0!3m2!1sen!2smy!4v1747012393249!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Melaka</h4>
+                        <ul>
+                            <li>AEON Bandaraya Melaka</li>
+                            <li>Dataran Pahlawan Melaka</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Pahang">
+                <h4>Padini</h4>
+                <p>Pahang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3980.9639664922024!2d103.32686455!3d3.8178587499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20pahang!5e0!3m2!1sen!2smy!4v1746501526741!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Pahang</h4>
+                        <ul>
+                            <li>East Coast Mall, Kuantan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Selangor">
+                <h4>Padini</h4>
+                <p>Selangor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d107203.65096585113!2d101.59969547397156!3d3.100102423370536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20selangor!5e0!3m2!1sen!2smy!4v1748138540985!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Selangor</h4>
+                        <ul>
+                            <li>AEON Bukit Tinggi, Klang</li>
+                            <li>AEON Mall Cheras Selatan</li>
+                            <li>AEON Mall Shah Alam</li>
+                            <li>Central i-City, Shah Alam</li>
+                            <li>IOI City Mall, Putrajaya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kedah">
+                <h4>Padini</h4>
+                <p>Kedah Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.042599892194!2d100.3664572!3d6.124969699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b44ba1e2e76ab%3A0x29ac5d32648edecd!2sPadini%20Concept%20Store%20Aman%20Central!5e0!3m2!1sen!2smy!4v1746501561858!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kedah</h4>
+                        <ul>
+                            <li>Aman Central, Alor Setar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perlis">
+                <h4>Padini</h4>
+                <p>Perlis Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18870.68269735583!2d100.35898041706639!3d6.120963170447253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20perlis%20!5e0!3m2!1sen!2smy!4v1747014426971!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Perlis</h4>
+                        <ul>
+                            <li>Store Aman Central</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kelantan">
+                <h4>Padini</h4>
+                <p>Kelantan Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7934.24761741931!2d102.23636295!3d6.1140300000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20kelantan!5e0!3m2!1sen!2smy!4v1746501612938!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kelantan</h4>
+                        <ul>
+                            <li>AEON Mall Kota Bharu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Terengganu">
+                <h4>Padini</h4>
+                <p>Terengganu Branch</p>
+                <p> Not available </p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Negeri Sembilan">
+                <h4>Padini</h4>
+                <p>Negeri Sembilan Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.3234181496755!2d101.9228047!3d2.7199565999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cddd62ccf539b5%3A0xe0b5a5b629e5dfc!2sPadini%20Concept%20Store!5e0!3m2!1sen!2smy!4v1746501745652!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Negeri Sembilan</h4>
+                        <ul>
+                            <li>AEON Mall Seremban 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perak">
+                <h4>Padini</h4>
+                <p>Perak Branch</p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127260.88453632791!2d101.09075030000001!3d4.6114437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20perak!5e0!3m2!1sen!2smy!4v1746501895497!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Perak</h4>
+                        <ul>
+                            <li>AEON Mall Ipoh Klebang</li>
+                            <li>AEON Ipoh Station 18</li>
+                            <li>Kinta City Shopping Centre</li>
+                            <li>Ipoh Parade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Sabah -->
+
+            <div class="store-location" data-region="sabah" data-city="all" >
+                <h4>Padini</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31745.433285876647!2d116.04552162262632!3d5.970046958866808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20kota%20kinabalu!5e0!3m2!1sen!2smy!4v1746535611600!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sabah</h4>
+                        <ul>
+                            <li>Imago Mall, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="store-location" data-region="sabah" data-city="Kota Kinabalu" >
+                <h4>Padini</h4>
+                <p>Kota Kinabalu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31745.433285876647!2d116.04552162262632!3d5.970046958866808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20kota%20kinabalu!5e0!3m2!1sen!2smy!4v1746535611600!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kota Kinabalu</h4>
+                        <ul>
+                            <li>Imago Mall, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Sarawak -->
+
+            <div class="store-location" data-region="sarawak" data-city="all">
+                <h4>Padini</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2113429.274163686!2d110.85651611865694!3d2.9353557549816993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20sarawak!5e0!3m2!1sen!2smy!4v1746607861219!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sarawak</h4>
+                        <ul>
+                            <li>Vivacity Megamall, Kuching</li>
+                            <li>Permaisuri Imperial City Mall, Miri</li>
+                            <li>Padini Concept Store Times Square Megamall Bintulu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Kuching">
+                <h4>Padini</h4>
+                <p>Kuching Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7976.785944695569!2d110.3636691!3d1.53156155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spadini%20kuching!5e0!3m2!1sen!2smy!4v1746547892295!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kuching</h4>
+                        <ul>
+                            <li>Vivacity Megamall, Kuching</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Miri">
+                <h4>Padini</h4>
+                <p>Miri Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.058113750099!2d113.99023799999999!3d4.4002289999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321f4f2d9451c08b%3A0x7f31872d9ca6f88b!2sPadini%20Concept%20Store%20Permaisuri%20Imperial%20City%20Mall!5e0!3m2!1sen!2smy!4v1746547926544!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Miri</h4>
+                        <ul>
+                            <li>Permaisuri Imperial City Mall, Miri</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Bintulu">
+                <h4>Padini</h4>
+                <p>Bintulu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.606352714905!2d113.0881295!3d3.1976581000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x321dc136c56439cb%3A0x5feb8404a6607d23!2sPadini%20Concept%20Store%20Times%20Square%20Megamall%20Bintulu!5e0!3m2!1sen!2smy!4v1746547954863!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Bintulu</h4>
+                        <ul>
+                            <li>Padini Concept Store Times Square Megamall Bintulu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="store4">
+            
+            <!-- All -->
+            <div class="store-location" data-region="semenanjung" data-city="all">
+                <h4> Cotton On </h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254975.32240820787!2d101.59609883167208!3d3.0974731286216377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20malaysia!5e0!3m2!1sen!2smy!4v1746585747439!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                  
+                    <div class="region">
+                      <h4>Kuala Lumpur</h4>
+                      <ul>
+                        <li>Pavilion Kuala Lumpur</li>
+                        <li>Sunway Velocity Mall</li>
+                        <li>MyTOWN Shopping Centre</li>
+                        <li>KL East Mall</li>
+                        <li>Nu Sentral</li>
+                        <li>The Exchange TRX</li>
+                        <li>Avenue K</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Selangor</h4>
+                      <ul>
+                        <li>1 Utama Shopping Centre</li>
+                        <li>Sunway Pyramid</li>
+                        <li>IOI City Mall</li>
+                        <li>Setia City Mall</li>
+                        <li>Mitsui Outlet Park KLIA Sepang</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Pulau Pinang</h4>
+                      <ul>
+                        <li>Gurney Paragon Mall</li>
+                        <li>Design Village Outlet Mall, Batu Kawan</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Johor</h4>
+                      <ul>
+                        <li>Johor Bahru City Square</li>
+                        <li>Johor Premium Outlets</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Melaka</h4>
+                      <ul>
+                        <li>Dataran Pahlawan Melaka Megamall</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Pahang</h4>
+                      <ul>
+                        <li>East Coast Mall, Kuantan</li>
+                        <li>Genting Highland Resort</li>
+                        <li>Genting Highland Premium Outlet</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Perak</h4>
+                      <ul>
+                        <li>AEON Mall Ipoh Klebang</li>
+                        <li>AEON Mall Ipoh Station 18</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="region">
+                      <h4>Kedah</h4>
+                      <ul>
+                        <li>Aman Central, Alor Setar</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kuala Lumpur">
+                <h4> Cotton On </h4>
+                <p>Kuala Lumpur Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d75800.94746310482!2d101.64491719572302!3d3.148309093100383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCotton%20On%20near%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1747383867872!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Kuala Lumpur</h4>
+                      <ul>
+                        <li>Pavilion Kuala Lumpur</li>
+                        <li>Sunway Velocity Mall</li>
+                        <li>MyTOWN Shopping Centre</li>
+                        <li>KL East Mall</li>
+                        <li>Nu Sentral</li>
+                        <li>The Exchange TRX</li>
+                        <li>Avenue K</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Pulau Pinang">
+                <h4> Cotton On </h4>
+                <p>Pulau Pinang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127489.48967942971!2d101.72179613687373!3d3.0822500400585935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20penang!5e0!3m2!1sen!2smy!4v1746201832087!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Pulau Pinang</h4>
+                      <ul>
+                        <li>Gurney Paragon Mall</li>
+                        <li>Design Village Outlet Mall, Batu Kawan</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Johor">
+                <h4> Cotton On </h4>
+                <p>Johor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d180493.22621714283!2d103.66721533300553!3d1.5414510185276271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCotton%20On%20near%20Johor%20Bahru%2C%20Johor!5e0!3m2!1sen!2smy!4v1746201904967!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Johor</h4>
+                      <ul>
+                        <li>Johor Bahru City Square</li>
+                        <li>Johor Premium Outlets</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Melaka">
+                <h4> Cotton On </h4>
+                <p>Melaka Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.903140156306!2d102.24920589999999!3d2.1903837999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1e0ef54d71f%3A0x1491857aab81e0aa!2sCotton%20On%20%40%20Dataran%20Pahlawan%20Mall!5e0!3m2!1sen!2smy!4v1746501922532!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Melaka</h4>
+                      <ul>
+                        <li>Dataran Pahlawan Melaka Megamall</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Pahang">
+                <h4> Cotton On </h4>
+                <p>Pahang Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d720895.1839364364!2d102.010282328979!3d3.4895451969504228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20pahang!5e0!3m2!1sen!2smy!4v1747014026132!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Pahang</h4>
+                      <ul>
+                        <li>East Coast Mall, Kuantan</li>
+                        <li>Genting Highland Resort</li>
+                        <li>Genting Highland Premium Outlet</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Selangor">
+                <h4> Cotton On </h4>
+                <p>Selangor Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d107203.56969059214!2d101.6015264106537!3d3.100904355837771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20selangor!5e0!3m2!1sen!2smy!4v1748138583681!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Selangor</h4>
+                      <ul>
+                        <li>1 Utama Shopping Centre</li>
+                        <li>Sunway Pyramid</li>
+                        <li>IOI City Mall</li>
+                        <li>Setia City Mall</li>
+                        <li>Mitsui Outlet Park KLIA Sepang</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kedah">
+                <h4> Cotton On </h4>
+                <p>Kedah Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0427165418364!2d100.366484!3d6.124953999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b45cef5accdcd%3A0x3731059cfcee33d!2sCotton%20On%20%40%20Aman%20Central!5e0!3m2!1sen!2smy!4v1746501985910!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Kedah</h4>
+                      <ul>
+                        <li>Aman Central, Alor Setar</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perlis">
+                <h4> Cotton On </h4>
+                <p>Perlis Branch</p>
+                <p>Not available</p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Kelantan">
+                <h4> Cotton On </h4>
+                <p>Kelantan Branch</p>
+                <p>Not available</p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Terengganu">
+                <h4> Cotton On </h4>
+                <p>Terengganu Branch</p>
+                <p>Not available</p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Negeri Sembilan">
+                <h4> Cotton On </h4>
+                <p>Negeri Sembilan Branch</p>
+                <p>Not available</p>
+            </div>
+
+            <div class="store-location" data-region="semenanjung" data-city="Perak">
+                <h4> Cotton On </h4>
+                <p>Perak Branch</p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127260.94374450586!2d101.09680799999997!3d4.611113200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCotton%20On%20perak!5e0!3m2!1sen!2smy!4v1746502118729!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                      <h4>Perak</h4>
+                      <ul>
+                        <li>AEON Mall Ipoh Klebang</li>
+                        <li>AEON Mall Ipoh Station 18</li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sabah -->
+
+            <div class="store-location" data-region="sabah" data-city="all">
+                <h4> Cotton On </h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31745.428383977607!2d116.04552160478973!3d5.970131559153873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20kota%20kinabalu!5e0!3m2!1sen!2smy!4v1746535634824!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sabah</h4>
+                        <ul>
+                          <li>Imago Shopping Mall, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="store-location" data-region="sabah" data-city="Kota Kinabalu">
+                <h4> Cotton On </h4>
+                <p>Kota Kinabalu Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31745.428383977607!2d116.04552160478973!3d5.970131559153873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20kota%20kinabalu!5e0!3m2!1sen!2smy!4v1746535634824!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kota Kinabalu</h4>
+                        <ul>
+                          <li>Imago Shopping Mall, Kota Kinabalu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sarawak -->
+
+            <div class="store-location" data-region="sarawak" data-city="all">
+                <h4>Cotton On</h4>
+                <p>All Branches</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31906.978498767203!2d110.33601712242825!3d1.5426220507888704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scotton%20on%20sarawak!5e0!3m2!1sen!2smy!4v1746607939037!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Sarawak</h4>
+                        <ul>
+                            <li>The Spring Shopping Mall, Kuching</li>
+                            <li>Cotton On @ Vivacity</li>
+                            <li>Cotton On @ Plaza Merdeka Kuching</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Kuching">
+                <h4>Cotton On</h4>
+                <p>Kuching Branch</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.343070961134!2d110.3439812!3d1.5581425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba7ee11a02979%3A0x19aecd5654fdaf64!2sCOTTON%20ON%20%40%20Plaza%20Merdeka%20Kuching!5e0!3m2!1sen!2smy!4v1746547985323!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="store-list-container">
+                    <div class="region">
+                        <h4>Kuching</h4>
+                        <ul>
+                            <li>The Spring Shopping Mall, Kuching</li>
+                            <li>Cotton On @ Vivacity</li>
+                            <li>Cotton On @ Plaza Merdeka Kuching</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Miri">
+                <h4>Cotton On</h4>
+                <p>Miri Branch</p>
+                <p>Not available</p>
+            </div>
+
+            <div class="store-location" data-region="sarawak" data-city="Bintulu">
+                <h4>Cotton On</h4>
+                <p>Bintulu Branch</p>
+                <p>Not available</p>
+            </div>
+          
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h1>StyleSphere</h1>
+                <p>StyleSphere is your circle of effortless fashion.<br> Be clean, confident, and always in motion.<br> Wear what moves with you.</p>
+            </div>
+
+            <div class="footer-right">
+                <h2>Contact Us:</h2>
+                <p>Email: stylesphere@gmail.com</p>
+                <p>Phone: +60 123-456-789</p>
+                <p>Instagram: stylesphere</p>
+                <p>Facebook: stylesphere</p>
+            </div>
+        </div>  
+    </footer>
+
+
+
+    <script>
+        
+        const backToTopBtn = document.getElementById("backToTopBtn");
+        window.onscroll = function () {
+        // Show button after scrolling down 300px
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            backToTopBtn.style.display = "block";
+        } else {
+            backToTopBtn.style.display = "none";
+        }
+        };
+
+        backToTopBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+
+
+        const regionSelect = document.getElementById('region-select');
+        const citySelect   = document.getElementById('city-select');
+        const stores       = document.querySelectorAll('.store-location');
+
+        // Define cities by region
+        const citiesByRegion = {
+        semenanjung: ["Kuala Lumpur", "Johor", "Pulau Pinang","Melaka","Selangor","Negeri Sembilan","Perak","Pahang","Terengganu","Kelantan","Perlis","Kedah"],
+        sabah: ["Kota Kinabalu"],
+        sarawak: ["Kuching", "Miri", "Bintulu"]
+        };
+
+        // Populate city dropdown based on selected region
+        function updateCityOptions() {
+
+        const selectedRegion = regionSelect.value;
+        const cities = citiesByRegion[selectedRegion] || [];
+
+        // Clear city options
+        //regionSelect.innerHTML = '<option value="all">-- Choose Region --</option>';
+        citySelect.innerHTML = '<option value="all">-- All Cities --</option>';
+
+        // Add new options
+        citySelect.append(
+            ...cities.map(city => new Option(city, city))
+        );
+
+        }
+
+        // Filter store elements based on selected region & city
+        function filterStores() {
+        const selRegion = regionSelect.value;
+        const selCity   = citySelect.value;
+
+        stores.forEach(store => {
+            const storeRegion = store.dataset.region;
+            const storeCity   = store.dataset.city;
+
+            const regionOK = (/*selRegion === 'all' ||*/ storeRegion === selRegion);
+            const cityOK   = (/*selCity === 'all' ||*/ storeCity === selCity);
+            store.style.display = (regionOK && cityOK) ? 'block' : 'none';
+        });
+        }
+
+        // When region changes, update cities and re-filter
+        regionSelect.addEventListener('change', () => {
+        updateCityOptions();
+        filterStores();
+        });
+
+        // When city changes, just re-filter
+        citySelect.addEventListener('change', filterStores);
+
+        // On page load, initialize city options and apply filters
+        window.addEventListener('DOMContentLoaded', () => {
+        updateCityOptions();
+        filterStores();
+        });
+        
+    </script>
+
+
+</body>
+</html>
